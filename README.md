@@ -3,7 +3,7 @@
 
 > *"Lights, camera, laughter! Bringing India’s everyday humor to the AI stage, one skit at a time."*
 
-![Desi Drama GPT Banner](https://i.imgur.com/x9ZlJMz.png)
+
 
 ---
 
