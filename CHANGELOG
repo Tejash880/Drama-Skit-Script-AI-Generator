@@ -1,0 +1,44 @@
+# 📜 Changelog  
+All notable changes to this project will be documented in this file.  
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
+and this project adheres to **Semantic Versioning**.  
+
+---
+
+## [1.2.0] - 2025-08-23  
+### Added  
+- 🚀 Finalized implementation of **Desi Drama GPT**  
+- 📂 Completed corpus saving & download functionality  
+- 🌐 Full language support for Hindi, Tamil, Telugu, Punjabi, Marathi, Kannada, Gujarati, and Bengali  
+- 🎨 Final UI polish with gradient background, styled buttons, and centered layout  
+
+### Changed  
+- Optimized model loading and generation for production use  
+- Improved dialogue formatting for cleaner skit outputs  
+
+### Fixed  
+- Removed stray `contributing.md` bug in code  
+- Handled empty skit generation gracefully  
+
+---
+
+## [1.1.0] - 2025-08-22  
+### Added  
+- Sidebar **Download button** to get saved skits as `.jsonl`  
+- Asynchronous saving of skits (non-blocking UI)  
+- Memory optimization with `torch.cuda.empty_cache`  
+
+### Changed  
+- Improved UI with custom CSS  
+- Optimized model with 8-bit quantization and Flash Attention 2  
+
+---
+
+## [1.0.0] - 2025-08-20  
+### Added  
+- 🎭 Initial release of **Desi Drama GPT**  
+- Input fields for **Character 1**, **Character 2**, **Topic**, and **Language**  
+- Generate button to create short, funny skits  
+- Save generated skits into `corpus/desi_skit.jsonl`  
+
