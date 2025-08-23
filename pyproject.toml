@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "desi-drama-gpt"
+version = "1.2.0"
+description = "A Streamlit app that generates funny Desi-style skits using Hugging Face transformers."
+authors = ["Tejash Hazari <your-email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+streamlit = "^1.36.0"
+torch = "^2.3.0"
+transformers = "^4.41.2"
+bitsandbytes = { version = "^0.42.0", optional = true }
+accelerate = "^0.30.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.0.0"
+flake8 = "^7.0.0"
+isort = "^5.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
