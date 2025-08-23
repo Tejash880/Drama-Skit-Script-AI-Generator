@@ -1,26 +1,24 @@
-## Bug Report
+# Bug Report 🎭
 
-**Summary:**
-<!-- A clear and concise description of the bug -->
+**Scene:** The stage is our travel planner.  
+**Act 1:** A user enters more than 50 waypoints.  
+**Act 2:** The app struggles, gasps for breath, and collapses with a **500 error**.  
 
-**Steps to Reproduce:**
-1. 
-2. 
-3. 
+🧾 **Dialogue:**
+- User: “Oh mighty app, take me through all these 50+ places!”  
+- App: *freezes dramatically for 20 seconds*  
+- App: “Alas! Too many waypoints… MemoryError strikes me down!”  
 
-**Expected Behavior:**
-<!-- What should happen -->
+🎯 **Expected Plot:**
+The hero app gracefully computes the optimal path for all waypoints.  
 
-**Actual Behavior:**
-<!-- What actually happens -->
+💥 **Tragic Twist:**
+Instead, it crashes, leaving the audience staring at a blank error screen.  
 
-**Screenshots/Logs:**
-<!-- If applicable -->
+📜 **Environment Setting:**
+- Ubuntu 22.04  
+- Chrome 115.0  
+- Python 3.11  
+- PostgreSQL 15  
 
-**Environment:**
-- OS:
-- Browser/Version:
-- Python Version:
-
-**Additional Context:**
-<!-- Add any other details here -->
+**Curtain Drops...**
