@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run App",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "main.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "pytest",
+      "args": [
+        "-v"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint with Ruff",
+      "type": "shell",
+      "command": "ruff",
+      "args": [
+        "check",
+        "."
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Format with Ruff",
+      "type": "shell",
+      "command": "ruff",
+      "args": [
+        "format",
+        "."
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
