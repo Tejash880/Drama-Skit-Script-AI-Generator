@@ -1,16 +1,19 @@
-## Feature Request
+# Feature Request 🎭
 
-**Summary:**
-<!-- A clear and concise description of the feature -->
+**Act 1:** Enter the eco-warriors 🌍.  
+They demand a feature: “Give us an **Eco-Friendly Route Mode**!”  
 
-**Use Case:**
-<!-- Why do you need this feature? -->
+**Act 2:** The app listens, bows, and responds:  
+“Yes, I shall calculate routes that sip fuel, not gulp it!”  
 
-**Proposed Solution:**
-<!-- How should it work? -->
+**Vision:**
+- Toggle for “Eco-Friendly Mode” 🌱.  
+- Integration with CO2 APIs.  
+- A glowing display: “You saved 2L fuel & 3kg CO2!”  
 
-**Alternatives Considered:**
-<!-- Other solutions or workarounds -->
+**Dramatic Conflict:**
+Users currently try to force shorter routes manually…  
+But alas! Short does not always mean green.  
 
-**Additional Context:**
-<!-- Any other info -->
+**Resolution:**
+By adding this feature, our app becomes the shining knight of ESG compliance.  
