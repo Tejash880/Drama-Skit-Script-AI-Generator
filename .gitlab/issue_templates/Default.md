@@ -1,19 +1,25 @@
 # Default Issue Template
 
 **Summary:**
-A clear and concise description of the issue.
+The "Search Function" on the platform returns incomplete results when filtering by date.
 
 **Steps to Reproduce / Context:**
-Provide details about the problem or request.
+1. Go to the dashboard.
+2. Enter a keyword in the search bar (e.g., "invoice").
+3. Apply a date filter (e.g., "Last 7 Days").
+4. Notice that only partial results are displayed instead of all matching entries.
 
 **Expected Behavior / Outcome:**
-What should happen ideally.
+All invoices from the last 7 days that match the keyword should appear in the results.
 
 **Actual Behavior (if applicable):**
-What happens currently.
+Only 2–3 invoices appear, while several others within the date range are missing.
 
 **Proposed Solution (if applicable):**
-How you think this should be fixed or improved.
+- Review backend query logic for date filters.
+- Ensure proper indexing on the "created_at" field in the database.
+- Add automated test cases for date-filtered searches.
 
 **Additional Context:**
-Add any other details, references, or screenshots.
+- Issue reported by multiple QA testers.
+- Related ticket: #145 (Search Bar Bug).
